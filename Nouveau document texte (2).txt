@@ -1,0 +1,11 @@
+Algorithme somme nombres impairs
+Variables i, n;s: entier
+Début
+Ecrire ("svp done un nombre n : ")
+Lire (n)
+S <-- 0
+Pour i <-- 1 à n pas 2 faire
+s<--s+(i^2)
+fin Pour
+Ecrire ("La somme est: ", S ).
+Fin
